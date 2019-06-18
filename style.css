@@ -113,7 +113,7 @@ u {
     -webkit-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
-    border-left: 10px solid #54944e;
+    border-bottom: 7px solid #54944e;
 }
 
 .about p,
@@ -123,7 +123,6 @@ u {
     box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
     padding: 1rem 2rem;
     background: white;
-    border-left: 10px solid #54944e;
 }
 
 hr {
