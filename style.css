@@ -152,6 +152,7 @@ hr {
     .fp {
         padding: 1rem !important;
         padding-bottom: 0 !important;
+        margin: 0 !important;
     }
 
     h1 {
@@ -166,6 +167,9 @@ hr {
         width: 100% !important;
         position: unset !important;
         margin: auto;
+    }
+    .card-body {
+        padding: 0 !important;
     }
 }
 
