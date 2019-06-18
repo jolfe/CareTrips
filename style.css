@@ -129,7 +129,7 @@ u {
     list-style: none;
 }
 
-.contactUs {
+.contactUs a {
     font-weight: 600;
     margin-left: 2rem;
 }
