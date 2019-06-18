@@ -102,14 +102,17 @@ u {
 
 .about img {
     width: 100%;
-    border: 1px solid #00000052;
-    margin-bottom: 1.5rem;
-    padding: 5px;
-    background: #4766ab47;
-}
+    border-left: none;
+    border: 10px solid white;
+    border-right: none;
+    border-left: none;}
 
 .about h1 {
     font-size: 1.5rem;
+    background: #54944e3b;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 0 !important;;
 }
 
 hr {
