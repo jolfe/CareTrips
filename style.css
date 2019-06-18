@@ -53,12 +53,10 @@ s .second .card-body {
 .card {
     background: #54944e;
     margin: 0 !important;
-    -webkit-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
     border-bottom: 4px solid #26598e;
     padding: .5rem !important;
     border-radius: .25rem .25rem 0 0 !important;
+    border: none;
 }
 
 .card .col-lg-6 {
@@ -96,23 +94,36 @@ u {
 }
 
 .about {
-    background: white;
+    background: transparent;
     color: black;
 }
 
 .about img {
     width: 100%;
-    border-left: none;
-    border: 10px solid white;
-    border-right: none;
-    border-left: none;}
+    margin-bottom: 1rem;
+    margin-top: 1rem !important;
+}
 
 .about h1 {
     font-size: 1.5rem;
-    background: #54944e3b;
-    padding: 10px;
-    margin: 0;
-    margin-bottom: 0 !important;;
+    background: #585858;
+    color: white;
+    padding: 10px 10px 10px 20px;
+    margin: 0 !important;
+    -webkit-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
+    border-left: 10px solid #54944e;
+}
+
+.about p,
+.about ul {
+    -webkit-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
+    padding: 1rem 2rem;
+    background: white;
+    border-left: 10px solid #54944e;
 }
 
 hr {
