@@ -81,6 +81,10 @@ s .second .card-body {
     border-color: #26598e;
 }
 
+u {
+    text-underline-position: under;
+}
+
 .btn-primary:hover {
     color: #fff;
     background-color: #033469;
