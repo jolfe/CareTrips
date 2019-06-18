@@ -32,16 +32,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top {
     filter: invert(1);
 }
 
-ul {
-    list-style: none;
-    display: inline-flex;
-}
-
-li {
-    color: gray;
-}
-
-.second .card-body {
+s .second .card-body {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding-bottom: 0;
@@ -88,6 +79,33 @@ li {
 .btn-primary {
     background: #26598e;
     border-color: #26598e;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #033469;
+    border-color: #033469;
+}
+
+.ab {
+    margin: 5rem auto;
+}
+
+.about {
+    background: white;
+    color: black;
+}
+
+.about img {
+    width: 100%;
+    border: 1px solid #00000052;
+    margin-bottom: 1.5rem;
+    padding: 5px;
+    background: #4766ab47;
+}
+
+.about h1 {
+    font-size: 1.5rem;
 }
 
 hr {
