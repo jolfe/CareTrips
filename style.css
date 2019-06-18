@@ -31,6 +31,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top {
 .navbar-dark .navbar-toggler-icon {
     filter: invert(1);
 }
+
 .second .card-body {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -57,7 +58,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top {
     background: #54944e;
     margin: 0 !important;
     border-bottom: 4px solid #26598e;
-    padding: .5rem !important;
+    padding: 1rem !important;
     border-radius: .25rem .25rem 0 0 !important;
     border: none;
 }
@@ -150,9 +151,20 @@ hr {
     }
 
     .fp {
-        padding: 1rem !important;
         padding-bottom: 0 !important;
-        margin: 0 !important;
+    }
+
+    .card {
+        padding: 2rem !important;
+    }
+
+    .card-body {
+        padding: 0 !important;
+    }
+
+    .about p,
+    .about ul {
+        padding: .7rem;
     }
 
     h1 {
@@ -168,7 +180,8 @@ hr {
         position: unset !important;
         margin: auto;
     }
-    .card-body {
+
+    .mini {
         padding: 0 !important;
     }
 }
