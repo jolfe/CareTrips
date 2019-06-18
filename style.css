@@ -31,8 +31,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top {
 .navbar-dark .navbar-toggler-icon {
     filter: invert(1);
 }
-
-s .second .card-body {
+.second .card-body {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding-bottom: 0;
@@ -41,6 +40,10 @@ s .second .card-body {
 .nav-link {
     color: gray !important;
     font-size: large;
+}
+
+.card-body {
+    padding-bottom: 0 !important;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link,
@@ -105,7 +108,7 @@ u {
 }
 
 .about h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     background: #585858;
     color: white;
     padding: 10px 10px 10px 20px;
@@ -123,6 +126,7 @@ u {
     box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
     padding: 1rem 2rem;
     background: white;
+    list-style: none;
 }
 
 .contactUs {
@@ -131,7 +135,7 @@ u {
 }
 
 hr {
-    border-color: #cccccc !important;
+    border-color: #000 !important;
     margin-bottom: 5px;
 }
 
@@ -145,8 +149,23 @@ hr {
         margin: 3rem auto 0 auto;
     }
 
-    .card-body {
-        padding: 0 !important;
+    .fp {
+        padding: 1rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .card .col-lg-6 {
+        padding-bottom: 0 !important;
+    }
+
+    .second img {
+        width: 100% !important;
+        position: unset !important;
+        margin: auto;
     }
 }
 
