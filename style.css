@@ -125,6 +125,11 @@ u {
     background: white;
 }
 
+.contactUs {
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
 hr {
     border-color: #cccccc !important;
     margin-bottom: 5px;
