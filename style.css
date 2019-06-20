@@ -129,7 +129,11 @@ u {
     box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
     padding: 1rem 2rem;
     background: white;
-    list-style: none;
+    list-style-type: square;
+}
+
+.about ul {
+    padding-left: 3rem;
 }
 
 .contactUs a {
@@ -214,7 +218,7 @@ footer {
 }
 
 footer a {
-    color: #54944e;
+    color: #fff;
 }
 
 footer img {
