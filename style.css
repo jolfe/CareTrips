@@ -20,6 +20,47 @@ nav {
     width: 200px;
 }
 
+.cserv img {
+    width: 100%;
+}
+
+.contact {
+    width: 70%;
+    margin: 7rem auto 4rem auto;
+}
+
+.contact button {
+    float: right;
+}
+
+.contact button:hover {
+    border: 1px solid black;
+}
+
+.col-md-12 {
+    -webkit-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
+    padding: 0rem 3rem;
+    background: white;
+    border-radius: .5rem;
+}
+
+.col-md-12 h2 {
+    padding-top: 3rem;
+}
+
+.form-control {
+    background: #4d4d4e33;
+}
+
+.cserv .card-body {
+    background-image: url(img/car.jpg);
+    height: 40rem;
+    background-size: cover;
+    padding: 0 !important;
+}
+
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top {
     border-bottom: 3px solid #73737352;
     background: #ececec !important;
@@ -190,16 +231,24 @@ hr {
     .mini {
         padding: 0 !important;
     }
+
+    .cserv .card-body {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 15rem;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .footerLogo {
-        border: none !important; 
+        border: none !important;
         padding-left: 0 !important;
     }
+
     footer img {
         margin-top: 1rem;
     }
+
     footer {
         height: 7.5rem !important;
     }

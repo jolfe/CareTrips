@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>CareTrips</title>
+    <title>CareTrips - About</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home
                             <span class="sr-only">(current)</span>
                         </a>
@@ -29,7 +29,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="services.html">Services</a>
                     </li>
                     <li class="nav-item">
@@ -39,34 +39,45 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="row masthead align-items-center my-5">
-            <div class="col-lg-7">
-                <img class="img-fluid rounded mb-4 mb-lg-0" src="img/carbanner.png" alt="">
-            </div>
-            <div class="col-lg-5">
-                <h1 class="font-weight-light">Safe, Reliable Wheelchair-Accessible Transportation</h1>
-                <p>Need to find safe, reliable wheelchair-accessible transporation? CareTrips has you covered. We operate a fleet of clean, late model wheelchair-accessible vehicles drive by our caring drivers. Our affordable pricing ensures you <b>never miss and appointment or event</b>. Call to schedule today!</p>
-                <a class="btn btn-primary" href="#">Contact Us</a>
-            </div>
-        </div>
-        <div class="card text-white my-5 py-4" style="padding-bottom: 2rem !important;">
-            <div class="card-body fp" style="width: 96%; margin: auto;">
-                <h1>Online Scheduling</h1>
-                <p class="text-white m-0">If you or the person you are caring for needs <u>reliable transportation service</u>, you're able to contact us online through our website. All online bookings require at least a 24 hour notice to make sure we have availability.</p>
-            </div>
-        </div>
-        <div class="card second text-black my-5 py-4 text-center">
-            <div class="card-body fp" style="    width: 90%;
-    margin: 1rem 1rem 0rem 1rem;">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h1>Never Miss a Doctor's Appointment Again.</h1>
-                        <p class="text-black m-0">The Next Generation of Patient Transportation has arrived. Built for Healthcare. Designed for Non-Emergency Medical Transportation (NEMT). We’re bringing a new approach to patient transportation. Your Health and Well-Being Are Important.
-                            So getting a ride to the doctor should not get in the way. Getting your health care shouldn’t depend on whether you can find a ride.</p>
+    <div class="container contact">
+        <div class="row">
+            <div class="col-md-12 col-md-offset-3" id="form_container">
+                <h2>Contact Us</h2>
+                <p>
+                    Please send your message below. We will get back to you at our earliest convenience!
+                </p>
+                <form role="form" method="post" id="reused_form">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="name">
+                                Your Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label for="email">
+                                Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
                     </div>
-                    <div class="col-lg-6">
-                        <img src="img/mobile.png" alt=""></div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <label for="message">
+                                Message:</label>
+                            <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button type="submit" class="btn btn-lg btn-default pull-right">Send →</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="success_message" style="width:100%; height:100%; display:none; ">
+                    <h3>Posted your message successfully!</h3>
+                </div>
+                <div id="error_message" style="width:100%; height:100%; display:none; ">
+                    <h3>Error</h3>
+                    Sorry there was an error sending your form.
                 </div>
             </div>
         </div>
