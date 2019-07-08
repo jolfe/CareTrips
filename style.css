@@ -3,7 +3,6 @@ body {
     background: rgb(203, 203, 203);
     background: linear-gradient(90deg, rgba(203, 203, 203, 1) 0%, rgba(231, 231, 231, 1) 47%, rgba(231, 231, 231, 1) 100%);
     font-family: 'Reem Kufi', sans-serif;
-
 }
 
 nav {
@@ -16,8 +15,37 @@ nav {
     color: black;
 }
 
+.form-wrapper {
+    margin: 12rem auto 6rem auto;
+    font-size: large;
+    max-width: 70%;
+}
+
+.form-control {
+    font-size: large;
+}
+
 .navbar-brand img {
     width: 200px;
+}
+
+.input-group-addon {
+    width: 5rem;
+}
+
+.input-group-text {
+    border: none;
+    background: transparent;
+}
+
+.btnsub {
+    width: 10rem;
+    height: 4rem;
+    font-size: large;
+}
+
+.notes input {
+    height: 10rem;
 }
 
 .cserv img {
@@ -123,7 +151,6 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top {
     line-height: 2.5rem;
     margin-bottom: 5rem !important;
     border-radius: 0 0 .25rem .25rem !important;
-
 }
 
 .btn-primary {
@@ -192,64 +219,56 @@ hr {
     margin-bottom: 5px;
 }
 
+.car {
+    height: 20rem;
+    object-fit: cover;
+}
+
 @media only screen and (max-width: 600px) {
     .contactUs {
         display: none;
     }
-
     .ab {
         padding: 0 !important;
         margin: 3rem auto 0 auto;
     }
-
     .fp {
         padding-bottom: 0 !important;
     }
-
     .card {
         padding: 2rem !important;
     }
-
     .card-body {
         padding: 0 !important;
     }
-
     .about p,
     .about ul {
         padding: .7rem;
     }
-
     h1 {
         font-size: 1.7rem;
     }
-
     .card .col-lg-6 {
         padding-bottom: 0 !important;
     }
-
     .second img {
         width: 100% !important;
         position: unset !important;
         margin: auto;
     }
-
     .mini {
         padding: 0 !important;
     }
-
     .cserv .card-body {
         background-size: cover;
         background-repeat: no-repeat;
         height: 15rem;
     }
-
     .contact {
         width: 90%;
     }
-
     .col-md-12 {
         padding: 0rem 1rem;
-
     }
 }
 
@@ -258,11 +277,9 @@ hr {
         border: none !important;
         padding-left: 0 !important;
     }
-
     footer img {
         margin-top: 1rem;
     }
-
     footer {
         height: 7.5rem !important;
     }
@@ -291,6 +308,12 @@ footer {
     -moz-box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 54px -27px rgba(0, 0, 0, 0.75);
     height: 5rem;
+    bottom: 0 !important;
+    width: 100%;
+}
+
+.contact-footer {
+    position: absolute;
 }
 
 footer a {
